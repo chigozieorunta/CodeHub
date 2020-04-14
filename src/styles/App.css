@@ -1,3 +1,12 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background: #182724;
   font-family: "SF Pro Display", Arial;
@@ -11,4 +20,92 @@ h4,
 h5,
 h6 {
   font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fullscreen {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen-child {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+/* SECTION */
+
+.section-xs {
+  padding: 1.5em 0;
+}
+
+.section-md {
+  padding: 3em 0;
+}
+
+.section-md {
+  padding: 3.5em 0;
+}
+
+.section-lg {
+  padding: 6em 0;
+}
+
+.section-xlg {
+  padding: 10em 0;
+}
+
+/* BUTTONS */
+
+.button {
+  font-size: 20px;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  background: #eb0e0e;
+  text-transform: uppercase;
+  display: inline-block;
+  border: none;
+  box-shadow: none;
+}
+
+/* CAPTIONS & EXCERPT */
+
+.caption {
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.excerpt {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+/* CODE SYRUP */
+
+.codesyrup-compact {
+  padding: 0 3em;
+}
+
+@media only screen and (max-width: 520px) {
+  .caption {
+    font-size: 45px;
+  }
+
+  .excerpt {
+    font-size: 30px;
+  }
+
+  .codesyrup-compact {
+    padding: 0 1em;
+  }
 }
