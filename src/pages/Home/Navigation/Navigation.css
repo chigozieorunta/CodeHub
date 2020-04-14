@@ -1,0 +1,22 @@
+.codesyrup-navigation {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.codesyrup-navigation ul {
+  list-style: none;
+}
+
+.codesyrup-navigation ul li {
+  float: left;
+}
+
+.codesyrup-navigation ul li a {
+  display: inline-block;
+  padding-right: 4em;
+  text-transform: uppercase;
+  margin-left: -1.25em;
+}
