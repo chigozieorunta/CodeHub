@@ -1,8 +1,10 @@
 import React from "react";
+import Home from "./pages/Home/";
+import "../src/styles/Ada.css";
 import "../src/styles/App.css";
 
 const App = () => {
-  return <h1>Hello World!</h1>;
+  return <Home />;
 };
 
 export default App;
