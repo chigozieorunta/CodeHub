@@ -2,21 +2,24 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  padding: 2em 0;
+  padding: 1em 0;
   width: 100%;
 }
 
 .codesyrup-navigation ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 .codesyrup-navigation ul li {
   float: left;
+  text-align: right;
 }
 
 .codesyrup-navigation ul li a {
-  display: inline-block;
-  padding-right: 4em;
+  display: block;
   text-transform: uppercase;
-  margin-left: -1.25em;
+  margin-left: 4.5em;
 }
