@@ -1,27 +1,29 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Landing.css";
 
 const Landing = () => {
   return (
-    <section className="fullscreen" id="landing">
-      <div className="fullscreen-child">
-        <div className="codesyrup-compact">
-          <div className="grid-md-11 grid-lg-23">
-            <div>
-              <h1 class="caption">CodeSyrup.io</h1>
-              <h3 class="excerpt">
-                Building the best developers and engineers around the world with
-                simple web technologies…
-              </h3>
-              <a class="button" href="https://codesyrup.io">
-                Get Started
-              </a>
-            </div>
+    <section className="site-fs" id="landing">
+      <div className="site-fs-child">
+        <Container fluid>
+          <div className="site-wrapper">
+            <Row>
+              <Col md={12} lg={6}>
+                <h1 className="site-caption">CodeSyrup.io</h1>
+                <h3 className="site-excerpt">
+                  Building the best developers and engineers around the world
+                  with simple web technologies…
+                </h3>
+                <a className="site-button" href="https://codesyrup.io">
+                  Get Started
+                </a>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
-      <Navigation />
     </section>
   );
 };
