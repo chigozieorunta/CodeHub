@@ -1,5 +1,5 @@
 import React from "react";
-import Category from "./Category";
+import Category from "../Category/Category";
 
 const AllCategories = {
   Courses: [
@@ -21,6 +21,24 @@ const AllCategories = {
       title: "JavaScript",
       excerpt: "Build functionality into your website using JavaScript...",
       total: 22,
+    },
+    {
+      id: 4,
+      title: "React",
+      excerpt: "Discover the most used Front End framework on the web!",
+      total: 3,
+    },
+    {
+      id: 5,
+      title: "Node.js",
+      excerpt: "Use JavaScript to build API & server side functionalities",
+      total: 3,
+    },
+    {
+      id: 6,
+      title: "PHP",
+      excerpt: "Before anything was, there was HyperText Preprocessor",
+      total: 3,
     },
   ],
 };
