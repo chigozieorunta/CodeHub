@@ -1,0 +1,24 @@
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+footer ul li {
+  margin-bottom: 1em;
+}
+
+footer ul li a {
+  font-family: "SF Pro Display", Arial;
+  font-weight: 300;
+}
+
+footer h4 {
+  font-weight: 700;
+}
+
+footer ul.about li {
+  line-height: 28px;
+}
