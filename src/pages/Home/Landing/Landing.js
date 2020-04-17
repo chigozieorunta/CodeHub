@@ -11,7 +11,7 @@ const Landing = () => {
           <div className="site-wrapper">
             <Row>
               <Col md={12} lg={6}>
-                <h1 className="site-caption">CodeSyrup.io</h1>
+                <h1 className="site-caption">CodeHub.pro</h1>
                 <h3 className="site-excerpt">
                   Building the best developers and engineers around the world
                   with simple web technologies…
@@ -24,6 +24,7 @@ const Landing = () => {
           </div>
         </Container>
       </div>
+      <Navigation />
     </section>
   );
 };
