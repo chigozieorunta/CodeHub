@@ -1,0 +1,6 @@
+.site-course {
+  border-radius: 35px;
+  height: 400px;
+  background: #fff url(../../../assets/html1.png) no-repeat;
+  background-size: cover;
+}
