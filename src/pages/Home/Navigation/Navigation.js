@@ -1,43 +1,42 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <div className="codesyrup-navigation">
-      <div className="codesyrup-compact">
-        <div className="grid-md-1">
-          <div>
-            <div className="grid-md-1">
-              <div>
-                <ul>
-                  <li>
-                    <a href="https://codesyrup.io">HTML</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">CSS</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">JavaScript</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">React</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">Node.js</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">PHP</a>
-                  </li>
-                  <li>
-                    <a href="https://codesyrup.io">Laravel</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <section className="site-fixed-nav">
+      <Container fluid>
+        <div className="site-wrapper">
+          <Row>
+            <Col lg={12}>
+              <ul>
+                <li>
+                  <a href="https://codesyrup.io">HTML</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">CSS</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">JavaScript</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">React</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">Node.js</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">PHP</a>
+                </li>
+                <li>
+                  <a href="https://codesyrup.io">Laravel</a>
+                </li>
+              </ul>
+            </Col>
+          </Row>
         </div>
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 };
 
