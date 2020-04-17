@@ -43,8 +43,7 @@ const AllCategories = {
   ],
 };
 
-const Courses = () => {
-  return AllCategories.Courses.map((Course) => <Category {...Course} />);
-};
+const Courses = () =>
+  AllCategories.Courses.map((Course) => <Category {...Course} />);
 
 export default Courses;
