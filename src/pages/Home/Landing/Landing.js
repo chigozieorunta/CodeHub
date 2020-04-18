@@ -12,9 +12,12 @@ const Landing = () => {
             <Row>
               <Col md={12} lg={6}>
                 <h1 className="site-caption">CodeHub.pro</h1>
-                <h3 className="site-excerpt">
+                <h3 className="site-excerpt d-none d-sm-block">
                   Building the best developers and engineers around the world
                   with simple web technologies…
+                </h3>
+                <h3 className="site-excerpt d-block d-sm-none">
+                  Building the best developers using simple web technologies…
                 </h3>
                 <a className="site-button" href="https://codesyrup.io">
                   Get Started
