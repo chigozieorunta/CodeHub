@@ -17,9 +17,9 @@ const Landing = () => {
                   with simple web technologies…
                 </h3>
                 <h3 className="site-excerpt d-block d-sm-none">
-                  Building the best developers using simple web technologies…
+                  Building developers using simple web technologies…
                 </h3>
-                <a className="site-button" href="https://codesyrup.io">
+                <a className="site-button" href="https://codehub.pro">
                   Get Started
                 </a>
               </Col>
