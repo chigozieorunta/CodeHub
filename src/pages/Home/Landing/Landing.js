@@ -16,9 +16,6 @@ const Landing = () => {
                   Building the best developers and engineers around the world
                   with simple web technologies…
                 </h3>
-                <h3 className="site-excerpt d-block d-sm-none">
-                  Building developers using simple web technologies…
-                </h3>
                 <a className="site-button" href="https://codehub.pro">
                   Get Started
                 </a>
