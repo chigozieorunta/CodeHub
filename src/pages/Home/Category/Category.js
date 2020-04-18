@@ -40,7 +40,7 @@ class Category extends Component {
                   {title}
                 </h1>
                 <h3 className="site-excerpt">{excerpt}</h3>
-                <a className="site-button" href="https://codesyrup.io">
+                <a className="site-button" href="https://codehub.pro">
                   Explore
                 </a>
               </Col>
