@@ -4,7 +4,7 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <section className="site-fixed-nav hidden-xs">
+    <section className="site-fixed-nav d-none d-md-block">
       <Container fluid>
         <div className="site-wrapper">
           <Row>
