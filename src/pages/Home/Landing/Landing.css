@@ -5,3 +5,13 @@
   background-size: cover;
   position: relative;
 }
+
+.site-landing-text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  .site-landing-text {
+    text-align: left;
+  }
+}
