@@ -8,6 +8,7 @@ const Home = () => {
     <>
       <Landing />
       <Courses />
+      <Footer />
     </>
   );
 };
