@@ -77,12 +77,14 @@ a {
   font-size: 50px;
   margin-bottom: 0;
   margin-top: 0;
+  letter-spacing: -1px;
 }
 
 .site-excerpt {
   font-size: 29px;
   margin-top: 0;
   margin-bottom: 0.5em;
+  letter-spacing: -1px;
 }
 
 /* BUTTONS */
