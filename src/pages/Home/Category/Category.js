@@ -47,9 +47,7 @@ class Category extends Component {
               <Col lg={9}>
                 <Row>
                   {this.state.courses.map((course) => (
-                    <>
-                      <CourseBox {...course} />
-                    </>
+                    <CourseBox key={course.name} {...course} />
                   ))}
                 </Row>
               </Col>
