@@ -14,7 +14,7 @@ const navBgTop = {
 };
 
 const navBgScroll = {
-  backgroundColor: "#182724",
+  backgroundColor: "#2a2a2a",
   transition: "all 0.3s",
   left: 0,
   bottom: "auto",
