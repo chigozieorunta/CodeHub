@@ -7,9 +7,9 @@ const ReactBox = (props) => {
   return (
     <Col lg={4}>
       <div className="site-course-box">
-        <div class="site-fs">
-          <div class="site-fs-child">
-            <div class="text-center">{name}</div>
+        <div className="site-fs">
+          <div className="site-fs-child">
+            <div className="text-center">{name}</div>
           </div>
         </div>
       </div>
