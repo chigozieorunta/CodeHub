@@ -1,35 +1,70 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Navigation.css";
 
+const navBgTop = {
+  backgroundColor: "transparent",
+  transition: "all 0.3s",
+  left: 0,
+  bottom: 0,
+  top: "auto",
+  position: "absolute",
+  padding: "2em 0",
+  width: "100%",
+};
+
+const navBgScroll = {
+  backgroundColor: "#182724",
+  transition: "all 0.3s",
+  left: 0,
+  bottom: "auto",
+  top: 0,
+  position: "fixed",
+  padding: "2em 0",
+  width: "100%",
+};
+
 const Navigation = () => {
+  const [navState, setNavState] = useState(navBgTop);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      const { innerHeight: height, scrollY: scrollPosition } = window;
+      scrollPosition > height - 100
+        ? setNavState(navBgScroll)
+        : setNavState(navBgTop);
+    };
+  }, []);
+
   return (
-    <section className="site-fixed-nav d-none d-md-block">
+    <section className="site-fixed-nav d-none d-md-block" style={navState}>
       <Container fluid>
         <div className="site-wrapper">
           <Row>
             <Col lg={12}>
               <ul>
                 <li>
-                  <a href="https://codesyrup.io">HTML</a>
+                  <a href="https://codehub.pro/courses/html">HTML</a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">CSS</a>
+                  <a href="https://codehub.pro/courses/css">CSS</a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">JavaScript</a>
+                  <a href="https://codehub.pro/courses/javascript">
+                    JavaScript
+                  </a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">React</a>
+                  <a href="https://codehub.pro/courses/react">React</a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">Node.js</a>
+                  <a href="https://codehub.pro/courses/nodejs">Node.js</a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">PHP</a>
+                  <a href="https://codehub.pro/courses/php">PHP</a>
                 </li>
                 <li>
-                  <a href="https://codesyrup.io">Laravel</a>
+                  <a href="https://codehub.pro/courses/laravel">Laravel</a>
                 </li>
               </ul>
             </Col>
