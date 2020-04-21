@@ -1,10 +1,22 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CourseBox from "../CourseBox/CourseBox.js";
+import Slider from "react-slick";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Category.css";
 
 const h1 = {
   marginBottom: "0.1em",
+};
+
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: true,
+  swipeToSlide: true,
 };
 
 class Category extends Component {
@@ -46,9 +58,11 @@ class Category extends Component {
               </Col>
               <Col lg={9}>
                 <Row>
-                  {this.state.courses.map((course) => (
-                    <CourseBox key={course.name} {...course} />
-                  ))}
+                  <Slider {...settings}>
+                    {this.state.courses.map((course) => (
+                      <CourseBox key={course.name} {...course} />
+                    ))}
+                  </Slider>
                 </Row>
               </Col>
             </Row>
