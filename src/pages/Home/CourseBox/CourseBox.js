@@ -5,7 +5,7 @@ import "./CourseBox.css";
 const ReactBox = (props) => {
   const { name } = props;
   return (
-    <Col lg={4}>
+    <Col lg={12}>
       <div className="site-course-box">
         <div className="site-fs">
           <div className="site-fs-child">
