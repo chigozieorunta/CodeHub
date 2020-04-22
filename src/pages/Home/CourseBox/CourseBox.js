@@ -7,11 +7,7 @@ const ReactBox = (props) => {
   return (
     <Col lg={12}>
       <div className="site-course-box">
-        <div className="site-fs">
-          <div className="site-fs-child">
-            <div className="text-center">{name}</div>
-          </div>
-        </div>
+        <div className="site-course-name text-center">{name}</div>
       </div>
     </Col>
   );
