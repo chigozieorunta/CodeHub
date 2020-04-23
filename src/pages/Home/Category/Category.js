@@ -304,7 +304,7 @@ class Category extends Component {
     return (
       <Section>
         <Row className="row-col-spacer">
-          <Col lg={3}>
+          <Col md={8} lg={3}>
             <small>{total} COURSES</small>
             <h1 className="site-caption" style={h1}>
               {title}
