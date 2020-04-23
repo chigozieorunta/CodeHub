@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import "../../../styles/BootStrap-Spacer.min.css";
 import "./TopNavigation.css";
 
 const TopNavigation = () => {
