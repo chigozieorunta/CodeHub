@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import CourseBox from "../CourseBox/CourseBox.js";
+import { Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Section from "../../../components/Section/Section";
+import CourseBox from "../CourseBox/CourseBox.js";
 import "./Category.css";
 
 const h1 = {
@@ -302,33 +302,29 @@ class Category extends Component {
   render() {
     const { title, excerpt, total } = this.props;
     return (
-      <section className="section-md">
-        <Container fluid>
-          <div className="site-wrapper">
-            <Row className="row-col-spacer">
-              <Col lg={3}>
-                <small>{total} COURSES</small>
-                <h1 className="site-caption" style={h1}>
-                  {title}
-                </h1>
-                <h3 className="site-excerpt">{excerpt}</h3>
-                <a className="site-button" href="https://codehub.pro">
-                  Explore
-                </a>
-              </Col>
-              <Col lg={9}>
-                <Row>
-                  <Slider {...settings}>
-                    {this.state.courses.map((course) => (
-                      <CourseBox key={course.name} {...course} />
-                    ))}
-                  </Slider>
-                </Row>
-              </Col>
+      <Section>
+        <Row className="row-col-spacer">
+          <Col lg={3}>
+            <small>{total} COURSES</small>
+            <h1 className="site-caption" style={h1}>
+              {title}
+            </h1>
+            <h3 className="site-excerpt">{excerpt}</h3>
+            <a className="site-button" href="https://codehub.pro">
+              Explore
+            </a>
+          </Col>
+          <Col lg={9}>
+            <Row>
+              <Slider {...settings}>
+                {this.state.courses.map((course) => (
+                  <CourseBox key={course.name} {...course} />
+                ))}
+              </Slider>
             </Row>
-          </div>
-        </Container>
-      </section>
+          </Col>
+        </Row>
+      </Section>
     );
   }
 }
@@ -343,3 +339,5 @@ export default Category;
     });
   })
 );*/
+
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
