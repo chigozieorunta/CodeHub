@@ -68,7 +68,7 @@ a {
 /* WRAPPER */
 
 .site-wrapper {
-  padding: 0 3em;
+  padding: 0 50px;
 }
 
 /* CAPTIONS & EXCERPT */
@@ -117,6 +117,6 @@ a {
   }
 
   .site-wrapper {
-    padding: 0 1em;
+    padding: 0 15px;
   }
 }
