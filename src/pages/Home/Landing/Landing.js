@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <CenterScreen id="landing">
       <Row>
-        <Col md={6} lg={6} className="site-landing-text">
+        <Col md={9} lg={6} className="site-landing-text">
           <h1 className="site-caption">CodeHub.pro</h1>
           <h3 className="site-excerpt">
             Building the best developers and engineers around the world with
