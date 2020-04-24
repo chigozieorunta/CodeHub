@@ -2,7 +2,7 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import "./CourseBox.css";
 
-const ReactBox = (props) => {
+const CourseBox = (props) => {
   const { name } = props;
   return (
     <Col lg={12}>
@@ -13,4 +13,14 @@ const ReactBox = (props) => {
   );
 };
 
-export default ReactBox;
+export default CourseBox;
+
+/*<Row>
+  <Col sm={{ span: 6, offset: 3 }}>
+    <img
+      src={require("../../../assets/images/" + image)}
+      alt={image}
+      className="img-fluid mx-auto"
+    />
+  </Col>
+</Row>;*/
