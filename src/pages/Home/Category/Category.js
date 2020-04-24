@@ -300,7 +300,7 @@ class Category extends Component {
   }
 
   render() {
-    const { title, excerpt, total } = this.props;
+    const { title, excerpt, total, image } = this.props;
     return (
       <Section>
         <Row className="row-col-spacer">
@@ -318,7 +318,7 @@ class Category extends Component {
             <Row>
               <Slider {...settings}>
                 {this.state.courses.map((course) => (
-                  <CourseBox key={course.name} {...course} />
+                  <CourseBox key={course.name} image={image} {...course} />
                 ))}
               </Slider>
             </Row>
