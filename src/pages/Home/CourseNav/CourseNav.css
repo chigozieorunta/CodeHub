@@ -1,0 +1,22 @@
+.site-fixed-nav {
+  z-index: 1000;
+}
+
+.site-fixed-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.site-fixed-nav ul li {
+  float: left;
+}
+
+.site-fixed-nav ul li a {
+  display: block;
+  text-transform: uppercase;
+  margin-left: 4.5em;
+  text-decoration: none;
+  color: #fff;
+}
