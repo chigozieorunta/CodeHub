@@ -5,7 +5,7 @@ import "./Landing.css";
 
 const Landing = () => {
   return (
-    <CenterScreen id="landing">
+    <CenterScreen id="landing" nav="coursenav">
       <Row>
         <Col md={9} lg={6} className="site-landing-text">
           <h1 className="site-caption">CodeHub.pro</h1>
