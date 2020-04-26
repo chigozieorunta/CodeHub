@@ -1,0 +1,25 @@
+#landing {
+  background-image: url(../../../assets/images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.site-landing-text {
+  text-align: center;
+}
+
+.site-landing-text .site-caption {
+  margin-bottom: 0.25em !important;
+}
+
+.site-landing-text .site-footnote {
+  margin-bottom: 1em !important;
+}
+
+@media only screen and (min-width: 480px) {
+  .site-landing-text {
+    text-align: left;
+  }
+}
