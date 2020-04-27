@@ -32,11 +32,11 @@ const Login = () => {
               <Button className="btn btn-block site-btn-login">Login</Button>
               <Separator>OR</Separator>
               <Button className="btn btn-block site-btn-facebook">
-                <FontAwesomeIcon icon={["fab", "facebook-f"]} />
+                <FontAwesomeIcon icon={["fab", "fa-facebook-f"]} />
                 Facebook
               </Button>
               <Button className="btn btn-block site-btn-google">
-                <FontAwesomeIcon icon={["fab", "google"]} />
+                <FontAwesomeIcon icon={["fab", "fa-google"]} />
                 Google
               </Button>
             </Form>
