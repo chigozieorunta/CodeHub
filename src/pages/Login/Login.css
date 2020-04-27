@@ -18,6 +18,27 @@
   margin-bottom: 1em !important;
 }
 
+.site-btn-login {
+  background: #333;
+  border: none !important;
+  padding: 0.75em 0;
+  height: auto;
+}
+
+.site-btn-facebook {
+  background: #036;
+  border: none !important;
+  padding: 0.75em 0;
+  height: auto;
+}
+
+.site-btn-google {
+  background: #f00;
+  border: none !important;
+  padding: 0.75em 0;
+  height: auto;
+}
+
 .form-control {
   background-color: transparent !important;
   border: 1px solid rgba(255, 255, 255, 0.8);

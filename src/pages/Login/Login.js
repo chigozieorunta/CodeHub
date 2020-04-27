@@ -11,7 +11,7 @@ const Login = () => {
       <CenterScreen id="landing">
         <Row>
           <Col lg={{ span: 4, offset: 4 }} className="site-landing-text">
-            <h1 className="site-caption">Login</h1>
+            <h3 className="text-center">Welcome, Back!</h3>
             <Form>
               <Form.Group>
                 <Form.Label>Username</Form.Label>
@@ -27,7 +27,11 @@ const Login = () => {
                   placeholder="*****"
                 ></Form.Control>
               </Form.Group>
-              <Button className="site-button">Login</Button>
+              <Button className="btn btn-block site-btn-login">Login</Button>
+              <Button className="btn btn-block site-btn-facebook">
+                Facebook
+              </Button>
+              <Button className="btn btn-block site-btn-google">Google</Button>
             </Form>
           </Col>
         </Row>
