@@ -339,5 +339,3 @@ export default Category;
     });
   })
 );*/
-
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
