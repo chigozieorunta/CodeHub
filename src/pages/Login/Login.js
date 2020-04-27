@@ -1,7 +1,10 @@
 import React from "react";
 import CenterScreen from "../../components/CenterScreen/CenterScreen";
 import Navigation from "../../components/Navigation/Navigation";
+import Separator from "../../components/Separator/Separator";
 import { Row, Col, Form, Button } from "react-bootstrap";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Login.css";
 
 const Login = () => {
@@ -10,7 +13,7 @@ const Login = () => {
       <Navigation />
       <CenterScreen id="landing">
         <Row>
-          <Col lg={{ span: 4, offset: 4 }} className="site-landing-text">
+          <Col lg={{ span: 4, offset: 4 }}>
             <h3 className="text-center">Welcome, Back!</h3>
             <Form>
               <Form.Group>
@@ -24,14 +27,19 @@ const Login = () => {
                 <Form.Label>Password</Form.Label>
                 <Form.Control
                   type="password"
-                  placeholder="*****"
+                  placeholder="********"
                 ></Form.Control>
               </Form.Group>
               <Button className="btn btn-block site-btn-login">Login</Button>
+              <Separator>OR</Separator>
               <Button className="btn btn-block site-btn-facebook">
+                <FontAwesomeIcon icon={faHome} />
                 Facebook
               </Button>
-              <Button className="btn btn-block site-btn-google">Google</Button>
+              <Button className="btn btn-block site-btn-google">
+                <FontAwesomeIcon icon="google" />
+                Google
+              </Button>
             </Form>
           </Col>
         </Row>

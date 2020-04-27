@@ -1,28 +1,9 @@
-#landing {
-  /*background-image: url(../../../assets/images/background.png);*/
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.site-landing-text {
-  text-align: center;
-}
-
-.site-landing-text .site-caption {
-  margin-bottom: 0.25em !important;
-}
-
-.site-landing-text .site-footnote {
-  margin-bottom: 1em !important;
-}
-
 .site-btn-login {
   background: #333;
   border: none !important;
   padding: 0.75em 0;
   height: auto;
+  text-transform: uppercase;
 }
 
 .site-btn-facebook {
@@ -46,10 +27,4 @@
   padding: 0.75em;
   height: auto;
   color: #fff !important;
-}
-
-@media only screen and (min-width: 480px) {
-  .site-landing-text {
-    text-align: left;
-  }
 }
