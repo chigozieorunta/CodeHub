@@ -7,7 +7,7 @@
 
 .site-separator::before {
   display: block;
-  width: 150px;
+  width: 75px;
   height: 1px;
   background: #fff;
   content: "";
@@ -18,7 +18,7 @@
 
 .site-separator::after {
   display: block;
-  width: 150px;
+  width: 75px;
   height: 1px;
   background: #fff;
   content: "";
