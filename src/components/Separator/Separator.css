@@ -1,0 +1,28 @@
+.site-separator {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  margin: 1em 0;
+}
+
+.site-separator::before {
+  display: block;
+  width: 150px;
+  height: 1px;
+  background: #fff;
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+}
+
+.site-separator::after {
+  display: block;
+  width: 150px;
+  height: 1px;
+  background: #fff;
+  content: "";
+  position: absolute;
+  right: 5px;
+  top: 50%;
+}
