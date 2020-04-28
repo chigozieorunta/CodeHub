@@ -13,3 +13,7 @@
   padding: 0 15px !important;
   display: block;
 }
+
+.navbar-toggler {
+  display: none !important;
+}
