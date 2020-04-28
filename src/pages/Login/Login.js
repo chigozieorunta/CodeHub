@@ -15,7 +15,11 @@ const Login = () => {
       <CenterScreen id="login-overlay" />
       <CenterScreen>
         <Row>
-          <Col lg={{ span: 4, offset: 4 }}>
+          <Col
+            sm={{ span: 10, offset: 1 }}
+            md={{ span: 8, offset: 2 }}
+            lg={{ span: 4, offset: 4 }}
+          >
             <h3 className="text-center">Login</h3>
             <Form>
               <Form.Group>
