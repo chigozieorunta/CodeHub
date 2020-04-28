@@ -4,7 +4,7 @@ import Navigation from "../../components/Navigation/Navigation";
 import Separator from "../../components/Separator/Separator";
 import Footer from "../../layouts/Footer/Footer";
 import { Row, Col, Form, Button } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Login.css";
 
 const Login = () => {
@@ -33,13 +33,9 @@ const Login = () => {
               <Button className="btn btn-block site-btn-login">Login</Button>
               <Separator>OR</Separator>
               <Button className="btn btn-block site-btn-facebook">
-                <FontAwesomeIcon icon={["fab", "fa-facebook-f"]} />
                 Facebook
               </Button>
-              <Button className="btn btn-block site-btn-google">
-                <FontAwesomeIcon icon={["fab", "fa-google"]} />
-                Google
-              </Button>
+              <Button className="btn btn-block site-btn-google">Google</Button>
             </Form>
           </Col>
         </Row>
