@@ -2,6 +2,7 @@ import React from "react";
 import CenterScreen from "../../components/CenterScreen/CenterScreen";
 import Navigation from "../../components/Navigation/Navigation";
 import Separator from "../../components/Separator/Separator";
+import Footer from "../../layouts/Footer/Footer";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Login.css";
@@ -10,10 +11,10 @@ const Login = () => {
   return (
     <>
       <Navigation />
-      <CenterScreen id="landing">
+      <CenterScreen>
         <Row>
           <Col lg={{ span: 4, offset: 4 }}>
-            <h3 className="text-center">Welcome, Back!</h3>
+            <h3 className="text-center">Login</h3>
             <Form>
               <Form.Group>
                 <Form.Label>Username</Form.Label>
@@ -43,6 +44,7 @@ const Login = () => {
           </Col>
         </Row>
       </CenterScreen>
+      <Footer css="footer" />
     </>
   );
 };
