@@ -7,10 +7,15 @@ const Footer = ({ css }) => (
     <Container fluid>
       <Row className="text-center">
         <Col lg={{ span: 8, offset: 2 }}>
-          CodeHub.pro is an online web academy focused on building the best
-          developers and engineers around the world with simple web
-          technologies… <br />
-          Copyright &copy; 2020 CodeHub.pro. All Rights Reserved.
+          <span className="footer-sub-title-1">
+            CodeHub.pro is an online web academy focused on building the best
+            developers and engineers around the world with simple web
+            technologies…
+          </span>
+          <br />
+          <span className="footer-sub-title-2">
+            Copyright &copy; 2020 CodeHub.pro. All Rights Reserved.
+          </span>
         </Col>
       </Row>
     </Container>
