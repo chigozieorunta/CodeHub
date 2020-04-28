@@ -2,6 +2,7 @@ import React from "react";
 import CenterScreen from "../../components/CenterScreen/CenterScreen";
 import Navigation from "../../components/Navigation/Navigation";
 import Separator from "../../components/Separator/Separator";
+import MobileNav from "../../components/MobileNav/MobileNav";
 import Footer from "../../layouts/Footer/Footer";
 import { Row, Col, Form, Button } from "react-bootstrap";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,6 +14,7 @@ const Login = () => {
       <Navigation />
       <CenterScreen id="login" />
       <CenterScreen id="login-overlay" />
+      <MobileNav />
       <CenterScreen>
         <Row>
           <Col
