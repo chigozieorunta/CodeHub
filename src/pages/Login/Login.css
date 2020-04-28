@@ -1,3 +1,28 @@
+#login {
+  background-image: url(../../assets/images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+#login-overlay {
+  position: fixed;
+  background: #182724;
+  opacity: 0.8;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
 .site-btn-login {
   background: #333;
   border: none !important;

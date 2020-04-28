@@ -11,6 +11,8 @@ const Login = () => {
   return (
     <>
       <Navigation />
+      <CenterScreen id="login" />
+      <CenterScreen id="login-overlay" />
       <CenterScreen>
         <Row>
           <Col lg={{ span: 4, offset: 4 }}>
