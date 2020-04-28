@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
 
-const Footer = () => (
-  <footer className="section-md">
+const Footer = ({ css }) => (
+  <footer className={`section-md ${css}`}>
     <Container fluid>
       <Row className="text-center">
         <Col lg={{ span: 8, offset: 2 }}>
