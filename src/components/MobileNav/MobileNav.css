@@ -1,13 +1,8 @@
-#site-mobile-nav {
+#site-mobile-toggler {
   position: fixed;
   top: 25px;
   right: 25px;
   z-index: 15000;
-  height: 20px;
-  width: 40px;
-}
-
-#site-mobile-nav button {
   background: none;
   border: none;
   width: 40px;
@@ -16,19 +11,52 @@
   padding: 0;
 }
 
-#site-mobile-nav button span {
+#site-mobile-toggler:active,
+#site-mobile-toggler:visited,
+#site-mobile-toggler:link {
+  border: none;
+}
+
+#site-mobile-toggler span {
   background: #fff;
   display: block;
   height: 3px;
   margin-bottom: 5px;
 }
 
-#site-mobile-nav button span:last-child {
+#site-mobile-toggler span:last-child {
   margin-bottom: 0;
 }
 
+#site-mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  background: #182724;
+  z-index: 15000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+#site-mobile-nav li a {
+  display: block;
+  padding: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+#site-mobile-nav li a:hover {
+  color: #fff;
+}
+
 @media only screen and (min-width: 992px) {
-  #site-mobile-nav {
+  #site-mobile-toggler {
     display: none;
   }
 }
