@@ -1,17 +1,17 @@
 #site-mobile-nav {
   position: fixed;
-  top: 15px;
-  right: 15px;
+  top: 25px;
+  right: 25px;
   z-index: 15000;
-  height: 19px;
-  width: 50px;
+  height: 20px;
+  width: 40px;
 }
 
 #site-mobile-nav button {
   background: none;
   border: none;
-  width: 50px;
-  height: 19px;
+  width: 40px;
+  height: 20px;
   box-sizing: border-box;
   padding: 0;
 }
