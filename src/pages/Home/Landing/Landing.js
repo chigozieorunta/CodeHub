@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CenterScreen from "../../../components/CenterScreen/CenterScreen";
 import { Row, Col } from "react-bootstrap";
 import "./Landing.css";
@@ -13,9 +14,9 @@ const Landing = () => {
             Building the best developers and engineers around the world with
             simple web technologies…
           </h3>
-          <a className="site-button" href="https://codehub.pro">
+          <Link className="site-button" to="/sign-up">
             Get Started
-          </a>
+          </Link>
         </Col>
       </Row>
     </CenterScreen>
