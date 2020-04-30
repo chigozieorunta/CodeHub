@@ -39,7 +39,7 @@ const CourseNavigation = () => {
     <ul class="site-course-nav">
       {links.map((link) => (
         <li>
-          <Link to={`/${link.slug}`}>{link.name}</Link>
+          <Link to={`/courses/${link.slug}`}>{link.name}</Link>
         </li>
       ))}
     </ul>
