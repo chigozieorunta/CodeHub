@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Separator.css";
 
 const Separator = (props) => (
