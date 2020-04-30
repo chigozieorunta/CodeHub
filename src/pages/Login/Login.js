@@ -1,11 +1,13 @@
 import React from "react";
+import { Row, Col, Form, Button } from "react-bootstrap";
+
 import CenterScreen from "../../components/CenterScreen/CenterScreen";
 import Navigation from "../../components/Navigation/Navigation";
 import Separator from "../../components/Separator/Separator";
-import MobileNav from "../../components/MobileNav/MobileNav";
+import MobileNav from "../../components/MobileNavigation/MobileNavigation";
+
 import Footer from "../../layouts/Footer/Footer";
-import { Row, Col, Form, Button } from "react-bootstrap";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./Login.css";
 
 const Login = () => {
@@ -54,3 +56,5 @@ const Login = () => {
 };
 
 export default Login;
+
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
