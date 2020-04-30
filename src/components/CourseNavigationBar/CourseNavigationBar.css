@@ -1,0 +1,15 @@
+.site-fixed-nav-home {
+  z-index: 1000;
+}
+
+.site-fixed-nav-home ul {
+  float: right;
+}
+
+.site-fixed-nav-course {
+  margin-top: 100px;
+}
+
+.site-fixed-nav-course ul {
+  float: right;
+}
