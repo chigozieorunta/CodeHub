@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import CourseNavigationBar from "../../pages/Home/CourseNavigationBar/CourseNavigationBar";
+import CourseBar from "../../pages/Home/CourseBar/CourseBar";
 
 const CenterScreen = (props) => {
   return (
@@ -11,7 +11,7 @@ const CenterScreen = (props) => {
           <Container fluid>{props.children}</Container>
         </div>
       </div>
-      {props.nav && <CourseNavigationBar />}
+      {props.nav && <CourseBar />}
     </section>
   );
 };
