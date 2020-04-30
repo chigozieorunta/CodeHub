@@ -2,14 +2,15 @@ import React from "react";
 
 import Navigation from "../../components/Navigation/Navigation";
 import MobileNavigation from "../../components/MobileNavigation/MobileNavigation";
-import CourseNavigation from "../../components/CourseNavigation/CourseNavigation";
+
+import CourseNavigationBar from "./CourseNavigationBar/CourseNavigationBar";
 
 const Courses = () => {
   return (
     <>
       <Navigation />
       <MobileNavigation />
-      <CourseNavigation />
+      <CourseNavigationBar classes="site-fixed-nav-course" />
     </>
   );
 };
