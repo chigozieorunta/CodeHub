@@ -7,9 +7,14 @@
 }
 
 .site-fixed-nav-course {
-  margin-top: 100px;
+  z-index: 1000;
+  margin-top: 70px;
 }
 
 .site-fixed-nav-course ul {
   float: right;
+}
+
+.site-fixed-nav-course ul li a {
+  text-transform: capitalize !important;
 }
