@@ -40,7 +40,7 @@ const CourseBar = () => {
 
   return (
     <CourseNavigationBar
-      classes="site-fixed-nav d-none d-lg-block"
+      classes="site-fixed-nav-home d-none d-lg-block"
       style={navState}
     />
   );
