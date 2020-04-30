@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CenterScreen from "../../../components/CenterScreen/CenterScreen";
 import { Row, Col } from "react-bootstrap";
-import "./Landing.css";
+
+import CenterScreen from "../../../components/CenterScreen/CenterScreen";
+
+import "./LandingScreen.css";
 
 const Landing = () => {
   return (

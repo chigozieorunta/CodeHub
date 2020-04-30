@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
+
 import Section from "../../../components/Section/Section";
+
 import CourseBox from "../CourseBox/CourseBox.js";
-import "./Category.css";
+
+import "./CourseCategory.css";
 
 const h1 = {
   marginBottom: "0.1em",

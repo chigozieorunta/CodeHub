@@ -1,17 +1,20 @@
 import React from "react";
-import Landing from "./Landing/Landing";
-import Courses from "./Courses/Courses";
-import Footer from "../../layouts/Footer/Footer";
+
 import Navigation from "../../components/Navigation/Navigation";
-import MobileNav from "../../components/MobileNav/MobileNav";
+import MobileNavigation from "../../components/MobileNavigation/MobileNavigation";
+
+import LandingScreen from "./LandingScreen/LandingScreen";
+import CourseSection from "./CourseSection/CourseSection";
+
+import Footer from "../../layouts/Footer/Footer";
 
 const Home = () => {
   return (
     <>
-      <MobileNav />
+      <MobileNavigation />
       <Navigation />
-      <Landing />
-      <Courses />
+      <LandingScreen />
+      <CourseSection />
       <Footer />
     </>
   );

@@ -1,5 +1,6 @@
 import React from "react";
-import Category from "../Category/Category";
+
+import CourseCategory from "../CourseCategory/CourseCategory";
 
 const AllCategories = {
   Courses: [
@@ -58,7 +59,7 @@ const AllCategories = {
 
 const Courses = () =>
   AllCategories.Courses.map((Course) => (
-    <Category key={Course.id} {...Course} />
+    <CourseCategory key={Course.id} {...Course} />
   ));
 
 export default Courses;
