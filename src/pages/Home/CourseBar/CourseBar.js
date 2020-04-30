@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 
-import CourseNavigation from "../../../components/CourseNavigation/CourseNavigation";
+import CourseNavigationBar from "../../../components/CourseNavigationBar/CourseNavigationBar";
 
-import "./CourseNavigationBar.css";
+import "./CourseBar.css";
 
 const navBgTop = {
   backgroundColor: "transparent",
@@ -27,7 +26,7 @@ const navBgScroll = {
   width: "100%",
 };
 
-const CourseNavigationBar = () => {
+const CourseBar = () => {
   const [navState, setNavState] = useState(navBgTop);
 
   useEffect(() => {
@@ -40,18 +39,11 @@ const CourseNavigationBar = () => {
   }, []);
 
   return (
-    <section className="site-fixed-nav d-none d-lg-block" style={navState}>
-      <Container fluid>
-        <div className="site-wrapper">
-          <Row>
-            <Col lg={12}>
-              <CourseNavigation />
-            </Col>
-          </Row>
-        </div>
-      </Container>
-    </section>
+    <CourseNavigationBar
+      classes="site-fixed-nav d-none d-lg-block"
+      style={navState}
+    />
   );
 };
 
-export default CourseNavigationBar;
+export default CourseBar;
