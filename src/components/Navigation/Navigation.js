@@ -9,10 +9,10 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="http://codehub.pro">Home</Nav.Link>
-          <Nav.Link href="http://codehub.pro/courses">Courses</Nav.Link>
-          <Nav.Link href="http://codehub.pro/sign-up">Sign Up</Nav.Link>
-          <Nav.Link href="http://codehub.pro/login">Login</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/courses">Courses</Nav.Link>
+          <Nav.Link href="/sign-up">Sign Up</Nav.Link>
+          <Nav.Link href="/login">Login</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
