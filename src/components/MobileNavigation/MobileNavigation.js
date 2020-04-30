@@ -16,14 +16,14 @@ const visibleState = {
 const MobileNav = () => {
   const [mobileNavState, setMobileNavState] = useState(hiddenState);
 
-  const slideOut = () => {
+  const slideInOut = () => {
     !state ? setMobileNavState(visibleState) : setMobileNavState(hiddenState);
     state = !state;
   };
 
   return (
     <section>
-      <button id="site-mobile-toggler" onClick={slideOut}>
+      <button id="site-mobile-toggler" onClick={slideInOut}>
         <span></span>
         <span></span>
         <span></span>
