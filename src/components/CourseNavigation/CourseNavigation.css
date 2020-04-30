@@ -1,19 +1,14 @@
-.site-fixed-nav {
-  z-index: 1000;
-}
-
-.site-fixed-nav ul {
+ul.site-course-nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  float: right;
 }
 
-.site-fixed-nav ul li {
+ul.site-course-nav li {
   float: left;
 }
 
-.site-fixed-nav ul li a {
+ul.site-course-nav li a {
   display: block;
   text-transform: uppercase;
   margin-left: 4.5em;
