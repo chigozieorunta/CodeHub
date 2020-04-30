@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./MobileNav.css";
 
 let state = false;
@@ -28,22 +29,16 @@ const MobileNav = () => {
       </button>
       <ul id="site-mobile-nav" style={mobileNavState}>
         <li>
-          <a href="http://codehub.pro">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="http://codehub.pro/courses">Courses</a>
+          <Link to="/courses">Courses</Link>
         </li>
         <li>
-          <a href="http://codehub.pro/sign-up">Sign Up</a>
+          <Link to="/sign-up">Sign Up</Link>
         </li>
         <li>
-          <a href="http://codehub.pro/login">Login</a>
-        </li>
-        <li>
-          <a href="http://codehub.pro/sign-up">How It Works</a>
-        </li>
-        <li>
-          <a href="http://codehub.pro/sign-up">FAQs</a>
+          <Link to="/login">Login</Link>
         </li>
       </ul>
     </section>
