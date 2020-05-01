@@ -1,0 +1,13 @@
+.site-filter {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-filter li {
+  margin-bottom: 0.5em;
+}
+
+.site-top-spacer {
+  height: 100px;
+}
