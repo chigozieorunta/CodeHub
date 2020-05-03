@@ -6,6 +6,7 @@ import Home from "./pages/Home/";
 import Courses from "./pages/Courses/";
 import Login from "./pages/Login/Login";
 
+import "../src/assets/fonts/circular-pro/style.css";
 import "../src/styles/App.css";
 import "../src/styles/BootStrap-Spacer.min.css";
 
