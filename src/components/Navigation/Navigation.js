@@ -13,11 +13,7 @@ const links = [
     slug: "courses",
   },
   {
-    name: "Sign Up",
-    slug: "sign-up",
-  },
-  {
-    name: "Login",
+    name: "Log in",
     slug: "login",
   },
 ];
