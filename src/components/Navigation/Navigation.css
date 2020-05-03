@@ -17,3 +17,25 @@
 .navbar-toggler {
   display: none !important;
 }
+
+.site-main-nav {
+  position: absolute;
+  z-index: 15000;
+  margin: 0;
+  padding: 2.5em 3em;
+  list-style: none;
+  right: 0;
+}
+
+.site-main-nav li {
+  float: left;
+}
+
+.site-main-nav li a {
+  color: #fff !important;
+  margin-left: 2.25em;
+  text-transform: uppercase;
+  padding: 0 15px !important;
+  display: block;
+  text-decoration: none;
+}
